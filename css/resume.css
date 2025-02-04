@@ -140,7 +140,7 @@ section.resume-section .resume-item .resume-date {
 
 a {
   color: #333333;
-  font: bold;
+  font-weight: bold;
 }
 
 a:hover, a:focus, a:active {
