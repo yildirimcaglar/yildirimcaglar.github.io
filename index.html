@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Caglar Yildirim | Responsible AI for Everyone</title>
+    <title>Caglar Yildirim | Agentic AI Safety</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -65,14 +65,16 @@
           <h1 class="mb-0">CAGLAR
             <span class="text-primary">YILDIRIM</span>
           </h1>
-          <div class="subheading mb-5">Human-AI Interaction | Extended Reality |
-            <a href="mailto:caglary@mit.edu">caglary@mit.edu</a>
+          <div class="subheading mb-5">Agentic AI Safety | Small Language Models | Human-AI Interaction | 
+			<a href="mailto:caglary@mit.edu">caglary@mit.edu</a>
           </div>
           <br />
-          <p class="mb-0"></p>I am a computer science researcher and professor specializing in human-AI interaction, data science, and mixed reality with a deep passion for designing, developing, and evaluating intelligent, user-centered systems. My work sits at the intersection of AI, data science, and immersive technologies (XR), where I explore how AI can enhance human experiences. </p><br />
-          <p class="mb-0"></p>In my research, I focus on building AI-integrated systems that adapt to human needs—whether in virtual reality or in more traditional interactive applications. My research has contributed to enhancing usability, accessibility, and decision-making in AI-driven systems, ensuring that technology serves people in meaningful ways. </p><br />
+          <p class="mb-0">I am a computer science researcher and professor specializing in human-AI interaction at Northeastern University's Khoury College of Computer Sciences. My research asks a single question in several forms: how do we know whether a language model is doing what we intended, and how does that question change when the model acts rather than merely responds? Once a system selects tools, issues calls, and consumes its own outputs as inputs, the unit of evaluation shifts from a response to a trajectory, and most of our inherited measurement apparatus stops applying cleanly. My work develops the evaluation methods, system architectures, and human-facing interfaces that this shift demands.  </p><br />
+          <p class="mb-0">In my research, I study how model behavior varies under conditions that evaluation suites typically hold fixed. In recent work I examined how personalization cues — user context disclosed in the prompt — shift refusal behavior and jailbreak task completion across multiple deployed systems. The finding I take to be robust is that safety behavior is not a stable model property but a joint function of model and context; the stronger claim, that specific cue types produce predictable shifts across architectures, remains a hypothesis my current data underdetermines.  </p><br />
 
-          <p class="mb-0">I have extensive experience leading interdisciplinary teams and mentoring software developers and HCI researchers, driving innovation in human-AI collaboration, leveraging data-driven insights, and creating impactful solutions for the future of AI-enhanced experiences and usable XR experiences. Currently, I’m particularly interested in responsible AI innovation and alignment, and my projects examine fairness in large multimodal models, with a special emphasis on disability bias.</p><br />
+ <p class="mb-0">This line extends naturally to agentic settings, where failure is distributed across steps rather than localized in an output. I am interested in capability taxonomies that survive contact with multi-turn tool use, in step-level rather than trajectory-level attribution of failure, and in adversarial robustness for benchmarks whose environments are themselves generated. A parallel strand considers how such evaluations should be governed — in particular, tiered-access models for benchmarks whose diagnostic value depends on not being fully public. </p><br />
+
+          <p class="mb-0">A second strand concerns how small language models acquire tool use, and what this implies for the governability of agentic systems. The prevailing SLM-first argument is economic: most agent invocations are narrow, repetitive, and well within the reach of a fine-tuned small model. My interest is that the same property makes these systems more auditable. A heterogeneous system in which a planner delegates to specialized small workers exposes a decomposition that a monolithic model does not, and each component admits targeted evaluation. I work on trajectory distillation and training-free memory transfer as routes to competent small tool-users, on the failure modes that distinguish them from large models — tool selection, argument construction, and knowing when no tool applies — and on what on-device inference makes newly possible for domains where data cannot leave the institution.</p><br />
 
         </div>
       </section>
@@ -80,7 +82,7 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publications">
         <div class="my-auto">
           <h2 class="mb-5">Publications</h2>
-          <p class="mb-0">My research contributions span human-computer interaction (HCI), AI-driven user experiences, immersive technologies (XR), and accessibility, with publications in leading conferences and journals. My work has been featured in venues such as <strong>ACM CHI</strong>, <strong>ACM UIST</strong>, <strong>IEEE AIVR</strong>, <strong>Transactions on Visualization and Computer Graphics</strong>, and <strong>Journal of Human-Computer Interaction</strong>.</p></p>
+          <p class="mb-0">My research contributions span human-AI interaction, AI-driven user experiences, immersive technologies (XR), and accessibility, with publications in leading conferences and journals. My work has been featured in venues such as <strong>ACM CHI</strong>, <strong>ACM UIST</strong>, <strong>IEEE AIVR</strong>, <strong>Transactions on Visualization and Computer Graphics</strong>, and <strong>Journal of Human-Computer Interaction</strong>.</p></p>
           <br />
           <p class="mb-0">For a full list of my publications, please visit my <strong><a href="https://scholar.google.com/citations?hl=en&user=RQQjDRkAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">
             Google Scholar page
@@ -92,12 +94,7 @@
         <div class="my-auto">
           <h2 class="mb-5">Teaching</h2>
 
-           <p class="mb-0">I have extensive experience teaching and mentoring software developers and HCI researchers across AI, data science, human-computer interaction, and UX research. My courses have equipped students with the technical, analytical, and methodological skills needed to develop intelligent, user-centered systems. </p><br />
-
-           <p class="mb-0"> At Northeastern University, I have designed and taught courses on <strong>human-AI collaboration</strong>, <strong>HCI</strong>, <strong>data science</strong>, <strong>mixed reality</strong>, and <strong>game programming</strong>, preparing students to apply machine learning, data analysis, and AI-driven interaction design in real-world applications. My HCI and UX research courses focus on empirical methods, experimental design, and usability evaluation, ensuring students develop rigorous, data-driven approaches to understanding human-AI interactions.</p><br />
-
-            <p class="mb-0">Previously, at SUNY Oswego and Iowa State University, I developed and taught courses on virtual reality, <strong>human factors</strong> , <strong>advanced quantitative methods</strong>, and <strong>UX research methods</strong>, mentoring students in applying scientific research techniques, and statistical analysis.</p>
-
+           <p class="mb-0">I have extensive experience teaching and mentoring AI developers and researchers. Currently, I'm teaching courses on Agentic AI and AI Evals at Northeastern University.</p><br />
       </section>
 
 	<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="nomophobia">
